@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/shop"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cart"
+            android:title="Checkout" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/acc"
+            android:title="My Account" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/news"
+                android:title="News" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="about us" />
+        </menu>
+    </item>
+
+</menu>
